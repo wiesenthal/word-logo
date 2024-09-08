@@ -95,7 +95,7 @@ export default function ImageForm() {
               prompt={prompt}
               imageUrl={imageUrl}
               size={size}
-              transparent={true}
+              transparent={transparent}
             />
           </div>
         ))}
