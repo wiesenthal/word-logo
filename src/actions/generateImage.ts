@@ -1,7 +1,7 @@
 "use server";
 
 import * as fal from "@fal-ai/serverless-client";
-import { Input, Output } from "../types";
+import { type Input, type Output } from "../types";
 
 const opts: Partial<Input> = {
   num_images: 4,
@@ -9,7 +9,7 @@ const opts: Partial<Input> = {
   image_size: "square",
   loras: [
     {
-      path: process.env.LORA_PATH as string,
+      path: process.env.LORA_PATH!,
       scale: 1,
     },
   ],

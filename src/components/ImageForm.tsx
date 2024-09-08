@@ -34,9 +34,7 @@ export default function ImageForm() {
     setLoading(false);
     console.log(result);
     if (result?.images && result.images.length > 0) {
-      setImages(
-        result.images.map((img) => img.url).filter(Boolean) as string[],
-      );
+      setImages(result.images.map((img) => img.url).filter(Boolean));
     }
   };
 
