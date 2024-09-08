@@ -1,4 +1,5 @@
 # Word Logo Generator
+
 A simple app to generate logos using LoRa fine-tuned image generator on labeled textual logos hosted on fal.ai.
 
 ![alt text](image.png)
@@ -24,8 +25,9 @@ This project was built during the AGI House Flux LoRa hackathon. It leverages ad
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Run the development server: `npm run dev`
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+3. Create `.env` file with `FAL_API_KEY` and `LORA_PATH` obtained from fal.ai
+4. Run the development server: `npm run dev`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Contributing
 
