@@ -1,29 +1,37 @@
-# Create T3 App
+# Word Logo Generator
+A simple app to generate logos using LoRa fine-tuned image generator on labeled textual logos hosted on fal.ai.
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+![alt text](image.png)
 
-## What's next? How do I make an app with this?
+## About
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This project was built during the AGI House Flux LoRa hackathon. It leverages advanced AI techniques to create unique and stylish text-based logos on demand.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+1. Powered by LoRa fine-tuned Flux image generator
+2. Labeled textual logo dataset
 
+## Technologies
+
+- [TypeScript](https://www.typescriptlang.org)
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
+- [React](https://reactjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [fal.ai](https://fal.ai)
+- [LoRa](https://arxiv.org/abs/2106.09685) (Low-Rank Adaptation)
+- Flux
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Contributing
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## How do I deploy this?
+## Acknowledgements
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- AGI House for organizing the Flux LoRa hackathon
+- fal.ai for the easy to use API and free credits!
